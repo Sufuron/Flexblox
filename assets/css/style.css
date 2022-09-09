@@ -1,0 +1,150 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.chat {
+  flex: 32%;
+  flex-basis: 0;
+}
+
+.maria-color {
+  color: green;
+}
+
+.img-chat-maria {
+  border-radius: 4rem;
+  height: 3.4rem;
+}
+
+.img-chat-maria:hover {
+  border-radius: 10px;
+}
+
+.text-chat-maria {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icon {
+  color: rgba(175, 20, 167, 0.801);
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.btn {
+  height: 4rem;
+  width: 11rem;
+}
+
+.img-chat:hover {
+  border-radius: 10px;
+}
+
+.box {
+  border: 1px solid rgb(202, 195, 176);
+  color: rgb(11, 21, 167);
+  height: 5.8rem;
+  width: 21rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.box1 {
+  border: 1px solid rgb(202, 195, 176);
+  color: rgb(10, 150, 10);
+  height: 6rem;
+  width: 21rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.box2 {
+  border: 1px solid rgb(202, 195, 176);
+  color: black;
+  height: 9rem;
+  width: 21rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  align-content: center;
+}
+
+.text-chat h5 {
+  font-size: 1rem;
+  height: 4rem;
+  padding-top: 4rem;
+  font-weight: 700;
+}
+
+.text-chat p {
+  font-size: 16px;
+  height: 3rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+
+.img-chat {
+  border-radius: 10rem;
+  height: 4rem;
+}
+
+.card {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 75%;
+}
+
+.card-img {
+  display: flex;
+  background-image: url(../img/hand.png);
+  background-position: center;
+  min-height: 400px;
+  min-width: 400px;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+.card-img:hover {
+  border-radius: 100px;
+}
+
+p:hover {
+  color: rgb(54, 241, 7);
+}
+
+h2 {
+  text-align: center;
+}
+
+h2:hover {
+  color: rgb(153, 10, 10);
+}
+
+h5:hover {
+  color: rgb(140, 42, 165);
+}
+
+h6 {
+  width: 20rem;
+  text-align: center;
+}

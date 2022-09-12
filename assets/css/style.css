@@ -12,20 +12,20 @@ body {
   flex-basis: 0;
 }
 
-.maria-color {
+.main-color {
   color: green;
 }
 
-.img-chat-maria {
+.img-chat-main {
   border-radius: 4rem;
   height: 3.4rem;
 }
 
-.img-chat-maria:hover {
+.img-chat-main:hover {
   border-radius: 10px;
 }
 
-.text-chat-maria {
+.text-chat-main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
